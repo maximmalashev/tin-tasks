@@ -1,0 +1,13 @@
+form * {
+    font-style: italic;
+    font-size: 14px;
+}
+
+form label {
+    color: black;
+}
+
+
+form label.req {
+    color: red;
+}

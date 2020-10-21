@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0 auto;
+    background-color: rgb(201, 201, 201);
+    width: 800px;
+    padding: 10px;
+}
+
+#banner {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.article {
+    border: 1px dotted gray;
+    background-color: bisque;
+    width: 75%;
+    margin-left: 75px;
+    margin-top: 5px;
+    padding: 10px;
+    text-align: justify;
+}
+
+h1 {
+    text-decoration: underline;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+a:hover {
+    color: orange;
+}
