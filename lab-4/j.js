@@ -19,4 +19,4 @@ function binarySearch(number, array) {
 
 console.log("Binary search for 1 in [1, 5, 3, 5, 7, 3, 2, 5, 3]: " + binarySearch(1, [1, 5, 3, 5, 7, 3, 2, 5, 3]));
 console.log("Binary search for 4 in [1, 5, 3, 5, 7, 3, 2, 5, 3]: " + binarySearch(4, [1, 5, 3, 5, 7, 3, 2, 5, 3]));
-console.log("Binary search for 4 in [1, 5, 3, 5, 7, 3, 2, 5, 3]: " + binarySearch(7, [1, 5, 3, 5, 7, 3, 2, 5, 3]));
+console.log("Binary search for 7 in [1, 5, 3, 5, 7, 3, 2, 5, 3]: " + binarySearch(7, [1, 5, 3, 5, 7, 3, 2, 5, 3]));
