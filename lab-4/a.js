@@ -1,4 +1,6 @@
 function factorial_i(number) {
+    if (number === 0) return 1;
+    
     result = 1;
 
     for (i = 1; i <= number; i++)
@@ -8,6 +10,8 @@ function factorial_i(number) {
 }
 
 function factorial_r(number) {
+    if (number === 0) return 1;
+
     if (number > 1)
         return number * factorial_r(number - 1);
     else return number;
