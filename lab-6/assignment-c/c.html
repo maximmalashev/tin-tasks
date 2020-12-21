@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <script src="c.js"></script>
+    <link rel="stylesheet" href="c.css">
+</head>
+<body>
+    <form onsubmit="return validateForm()">
+        <label>Numerical Field</label>
+        <input type="number" name="number" id="number-input" class="correct" required>
+        <br>
+        <label>Email</label>
+        <input type="text" name="email" id="email-input" class="correct" required>
+        <br>
+        <button type="submit" onclick="validateForm()">Submit</button>
+    </form>
+</body>
+</html>

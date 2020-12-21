@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to table</title>
+    <script src="d.js"></script>
+</head>
+<body>
+    <table id="table" border="1px">
+        <tr>
+            <td>some</td>
+            <td>data</td>
+            <td>here</td>
+        </tr>
+    </table>
+
+    <form onsubmit="return false">
+        <label>First Column</label>
+        <input type="text" name="first" id="first">
+        <br>
+        <label>Second Column</label>
+        <input type="text" name="second" id="second">
+        <br>
+        <label>Third Column</label>
+        <input type="text" name="third" id="third">
+        <br>
+        <button type="submit" onclick="add()">Add to Table</button>
+    </form>
+</body>
+</html>
