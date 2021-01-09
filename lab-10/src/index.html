@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Converter</title>
+</head>
+<body>
+    <h1>Convert temperature</h1>
+    <input type="number" name="tempIpt" id="tempIpt">
+    <select name="tempSelect" id="tempSelect">
+        <option value="C">Celcius</option>
+        <option value="F">Fahrenheit</option>
+        <option value="K">Kelvin</option>
+    </select>
+    <br>
+    <br>
+    <button onclick="calculateTemperature()">Calculate</button>
+    <br>
+    <br>
+    <p id="cResult"></p>
+    <p id="fResult"></p>
+    <p id="kResult"></p>
+    <h1>Convert distance</h1>
+    <input type="number" name="distIpt" id="distIpt">
+    <select name="distSelect" id="distSelect">
+        <option value="km">Kilometers</option>
+        <option value="mi">Miles</option>
+    </select>
+    <br>
+    <br>
+    <button onclick="calculateDistance()">Calculate</button>
+    <br>
+    <br>
+    <p id="kmResult"></p>
+    <p id="miResult"></p>
+</body>
+</html>
