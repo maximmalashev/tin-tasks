@@ -1,0 +1,252 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Handlee', cursive;
+	font-size: 13pt;
+	background-color: #efefef;
+	padding: 10px;
+	margin: 0;
+}
+h1 {
+	font-size: 15pt;
+	color: #20bcd5;
+	text-align: center;
+	padding: 18px 0 18px 0;
+	margin: 0 0 10px 0;
+}
+h3 { 
+	font-weight: 300;
+	font-size: 15px;
+	text-align: left;
+	text-decoration: underline;
+	padding: 18px 0 18px 0;
+	color: #ffffff;
+	margin: 0px 0px 10px 30px;
+	line-height: 120%; 
+	font-family: 'Open sans', sans-serif; 
+}
+h3 span {
+	background-color: #20bcd5; 
+	border: 4px solid #17899c;
+	padding: 10px;
+}
+h1 span {
+	font-family: Impact, Charcoal, sans-serif;
+	font-variant: small-caps;
+	border: 4px dashed #20bcd5;
+	padding: 10px;
+}
+p {
+	padding: 0;
+	margin: 0;
+}
+p.article {
+	padding: 15px 4px 15px 4px;
+	border: 4px solid #969696; 
+	margin: 0px 60px 15px 60px;
+	background-color: #efefef;
+}
+a.hover:hover{
+	color: red;
+}
+.img-circle {
+	border: 3px solid white;
+	border-radius: 50%;
+}
+.section {
+	background-color: #fff;
+	padding: 15px;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+#header {
+	background-image: url("header.jpg");
+	background-size: cover;
+}
+#header img {
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin: auto;
+}
+#header p {
+	font-size: 25pt;
+	color: #3b464c;
+	padding-top: 5px;
+	margin: 0;
+	font-weight: bold;
+	text-align: center;
+}
+.quote {
+	font-size: 12pt;
+	text-align: right;
+	margin-top: 10px;
+}
+blockquote{
+	font-family: Impact, Charcoal, sans-serif;
+	font-variant: small-caps;
+}
+table {
+	width: 100%;
+	font-size: 11pt;
+}
+table, th, td {
+	border: 2px solid #cecece;
+	border-collapse: collapse;
+	text-align: center;
+	table-layout: fixed;
+}
+.selected {
+	background-color: #f36f48;
+	font-weight: bold;
+	color: white;
+}
+li {
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+hr {
+	border: 0;
+	height: 1px;
+	background: #f36f48;
+}
+form {
+	text-align: center;
+	margin-top: 0;
+}
+footer{
+	margin: 0 auto;
+}
+figure {
+  padding: 4px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.submit {
+	background-color: #3fb6b2;
+	padding: 12px 45px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #ffffff;
+	border: none;
+	outline: none;
+	margin: 0;
+	font-weight: bold;
+}
+.submit:hover {
+	background-color: #43a09d;
+}
+textarea {
+	height: 100px;
+}
+input, textarea {
+	margin-bottom: 10px;
+	font-size: 11pt;
+	padding: 15px 10px 10px;
+	border: 1px solid #cecece;
+	background-color: #efefef;
+	color: #787575;
+	border-radius: 5px;
+	width: 70%;
+	outline: none;
+}
+.face {
+	transform: scale(0.4);
+	margin: 0 auto;
+	display: block;
+	margin-top: -35px;
+	margin-bottom: -25px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.container > div{
+    margin: 10px;
+    padding: 20px;
+    font-size: 14px;
+    width: 15%;
+}
+.games{
+  max-height: 100%;
+  align-self:stretch;
+}
+img.games{
+  max-width: 100%;
+}
+.rightWrap{
+    float: right;
+    margin: 10px;
+    width: 150px;
+    height: 200px;
+}
+.leftWrap{
+    float: left;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+}
+#title-text{
+	display: block;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 25px;
+	padding: 1px 1px 1px 1px;
+	border: 2px solid white; 
+}
+.pquote {
+    float: left;
+  	width: 150px;
+    font-weight: bold;
+    padding: 2px;
+    margin: 0 2px 2px 0;
+   	font-size: 15px;
+    border: 4px dashed #20bcd5;
+    style="font-family: Impact, Charcoal, sans-serif;
+    font-variant: small-caps;"
+}
+#craft{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 295px;
+	height: 203px;
+	border-radius: 5px;
+	transform: rotate(-10deg);
+	filter: drop-shadow(0px 2px 2px #000000);
+}
+#please{
+	text-transform: uppercase;
+}
+#media{
+	vertical-align: middle;
+}
+#contacts img {
+	height: 50px;
+	width: 50px;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+#contacts a {
+	text-decoration: none;
+}
+#contacts img:hover {
+	opacity: 0.8;
+}
+#contacts {
+	text-align: center;
+}
+.copyright {
+	font-size: 8pt;
+	text-align: right;
+	padding-bottom: 10px;
+	color: grey;
+}
